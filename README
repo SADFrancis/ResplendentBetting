@@ -1,0 +1,20 @@
+Frontend end notes:
+
+initialized frontend with command: 
+
+npx create-next-app
+
+
+npm run dev
+
+Using bulma for css needs
+
+npm i bulma
+
+0x65b01f0f4Ec1885bD00D8C6dC8027fcc1316BCC4
+
+npm i solc
+
+^ to get ABI
+
+brownie test -k test_get_entrance_fee --network rinkeby
