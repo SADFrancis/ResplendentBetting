@@ -1,20 +1,7 @@
-Frontend end notes:
+This is a website to bet on the next costume theme of the new resplendent character released on the 10th and 25th for Fire Emblem Heroes. 
 
-initialized frontend with command: 
+https://fehpass.fire-emblem-heroes.com/en-US
 
-npx create-next-app
+Refer to the sister API project that scrapes the above site to feed to a solidity contract on Rinkeby testnet for this project
 
-
-npm run dev
-
-Using bulma for css needs
-
-npm i bulma
-
-0x65b01f0f4Ec1885bD00D8C6dC8027fcc1316BCC4
-
-npm i solc
-
-^ to get ABI
-
-brownie test -k test_get_entrance_fee --network rinkeby
+https://feh-resplendent.herokuapp.com/

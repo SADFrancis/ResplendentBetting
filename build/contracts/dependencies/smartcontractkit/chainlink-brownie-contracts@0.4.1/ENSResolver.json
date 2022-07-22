@@ -21,21 +21,21 @@
     }
   ],
   "allSourcePaths": {
-    "13": "/Users/seanfrancis/.brownie/packages/smartcontractkit/chainlink-brownie-contracts@0.4.1/contracts/src/v0.8/vendor/ENSResolver.sol"
+    "16": "/Users/seanfrancis/.brownie/packages/smartcontractkit/chainlink-brownie-contracts@0.4.1/contracts/src/v0.8/vendor/ENSResolver.sol"
   },
   "ast": {
     "absolutePath": "/Users/seanfrancis/.brownie/packages/smartcontractkit/chainlink-brownie-contracts@0.4.1/contracts/src/v0.8/vendor/ENSResolver.sol",
     "exportedSymbols": {
       "ENSResolver": [
-        2261
+        2342
       ]
     },
-    "id": 2262,
+    "id": 2343,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2253,
+        "id": 2334,
         "literals": [
           "solidity",
           "^",
@@ -43,7 +43,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "32:23:13"
+        "src": "32:23:16"
       },
       {
         "abstract": true,
@@ -52,36 +52,36 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": false,
-        "id": 2261,
+        "id": 2342,
         "linearizedBaseContracts": [
-          2261
+          2342
         ],
         "name": "ENSResolver",
-        "nameLocation": "75:11:13",
+        "nameLocation": "75:11:16",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "3b3b57de",
-            "id": 2260,
+            "id": 2341,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "addr",
-            "nameLocation": "100:4:13",
+            "nameLocation": "100:4:16",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2256,
+              "id": 2337,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2255,
+                  "id": 2336,
                   "mutability": "mutable",
                   "name": "node",
-                  "nameLocation": "113:4:13",
+                  "nameLocation": "113:4:16",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2260,
-                  "src": "105:12:13",
+                  "scope": 2341,
+                  "src": "105:12:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -89,10 +89,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 2254,
+                    "id": 2335,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "105:7:13",
+                    "src": "105:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -101,21 +101,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "104:14:13"
+              "src": "104:14:16"
             },
             "returnParameters": {
-              "id": 2259,
+              "id": 2340,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2258,
+                  "id": 2339,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2260,
-                  "src": "148:7:13",
+                  "scope": 2341,
+                  "src": "148:7:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -123,10 +123,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2257,
+                    "id": 2338,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "148:7:13",
+                    "src": "148:7:16",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -136,21 +136,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "147:9:13"
+              "src": "147:9:16"
             },
-            "scope": 2261,
-            "src": "91:66:13",
+            "scope": 2342,
+            "src": "91:66:16",
             "stateMutability": "view",
             "virtual": true,
             "visibility": "public"
           }
         ],
-        "scope": 2262,
-        "src": "57:102:13",
+        "scope": 2343,
+        "src": "57:102:16",
         "usedErrors": []
       }
     ],
-    "src": "32:128:13"
+    "src": "32:128:16"
   },
   "bytecode": "",
   "bytecodeSha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
