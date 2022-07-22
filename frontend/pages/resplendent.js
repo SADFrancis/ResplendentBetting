@@ -172,6 +172,7 @@ const Resplendent = () => {
                         <h1>Resplendent Betting Site</h1>
                         <div className="navbar ml-6">
                             {bettingContract !== null &&
+                                poll_status_options[POLLSTATUS] !== undefined &&
                                 <h1>POLLS ARE <span className={poll_status_options[POLLSTATUS].toLowerCase() === "open" ? "status-green" : "status-red"}>{poll_status_options[POLLSTATUS]}</span></h1>
                             }
                         </div>
