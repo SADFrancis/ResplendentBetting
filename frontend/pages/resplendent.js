@@ -36,7 +36,7 @@ const Resplendent = () => {
         if (web3 && isWeb3InstanceSet === null){
             setWeb3ObjectHandler()
         } 
-        checkConnectionHander()
+        checkConnectionHandler()
     },[bettingContract,web3])
 
     const poll_status_options = Array("OPEN","CLOSED","CALCULATING")
@@ -52,7 +52,7 @@ const Resplendent = () => {
         setPOLLSTATUS(pollStatus)
     }
 
-    const checkConnectionHander = ()=> {
+    const checkConnectionHandler = ()=> {
         ethereum
             .request({ method: 'eth_accounts' })
             .then(checkAccountConnected)
@@ -214,6 +214,7 @@ const Resplendent = () => {
             {/* Askr Box */ }
                 {realms.map((item, index) =>
                 (<ResplendentCard
+                    key={index}
                     id={index}
                     realm={item.realm}
                     image={item.image.src}
