@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Image from 'next/image'
 import bettingContract from '../blockchain/resplendent_contract_export'
-import {userBetHook } from './UserBetHook'
+//import {userBetHook } from './DeprecatedUserBetHook'
 import Web3 from 'web3'
 import web3 from 'web3'
 
