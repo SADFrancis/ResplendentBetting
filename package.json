@@ -12,6 +12,7 @@
     "lint": "next lint"
   },
   "devDependencies": {
+    "bulma": "^0.9.4",
     "eslint": "8.15.0",
     "eslint-config-next": "12.1.6",
     "fs": "^0.0.1-security",
