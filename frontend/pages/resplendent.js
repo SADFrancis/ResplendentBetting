@@ -12,18 +12,18 @@ import buildData from '../../build/contracts/Betting.json'
 
 const Resplendent = () => {
 
-    const [error, setError] = useState('')
-    const [prizeMoney, setPrizeMoney] = useState('')
-    const [minimumEntryFee, setMinimumEntryFee] = useState('')
+    const [error, setError] = useState(null)
+    const [prizeMoney, setPrizeMoney] = useState(null)
+    const [minimumEntryFee, setMinimumEntryFee] = useState(null)
     const [connected, setConnected] = useState('Connect Wallet')
-    const [userBet, setUserBet] = useState('')
-    const [onchainUserBet, setOnchainUserBet] = useState('')
+    const [userBet, setUserBet] = useState(null)
+    const [onchainUserBet, setOnchainUserBet] = useState(null)
     const [userAddress, setUserAddress] = useState(null)
     const [realmChoice, setRealmChoice] = useState(42)
     const [web3,setWeb3] = useState(null)
     const [bettingContract, setBettingContract] = useState(null)
     const [isWeb3InstanceSet,setWeb3Instance] = useState(null)
-    const [POLLSTATUS, setPOLLSTATUS] = useState('')
+    const [POLLSTATUS, setPOLLSTATUS] = useState(null)
     useEffect( () => {
         
         if (bettingContract) {
