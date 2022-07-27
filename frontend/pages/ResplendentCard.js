@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Image from 'next/image'
+//import Image from 'next/image'
 import bettingContract from '../blockchain/resplendent_contract_export'
 //import {userBetHook } from './DeprecatedUserBetHook'
 import Web3 from 'web3'
@@ -36,7 +36,7 @@ const ResplendentCard = ({id, realm, image, stateChanger, betAmount, web3, accou
     return (
         <div className="resplendent-card">
               <h1 className="title">{realm}</h1>
-            <Image className='resplendent-image' src={image} width={250} height={250} />
+            <picture><img className='resplendent-image' src={image}/></picture>
         <form>
             {/*Get the bet amount*/}
             <div className="control">
