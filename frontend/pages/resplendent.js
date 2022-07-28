@@ -1,4 +1,4 @@
-import Head from 'next/head'; //NextJS lets you write things that normally go in the Head section directly in a component without going index.html in normal react applications
+//import Head from 'next/head'; //NextJS lets you write things that normally go in the Head section directly in a component without going index.html in normal react applications
 import { useState, useEffect } from 'react';
 import Web3 from 'web3';
 //import bettingContract from '../blockchain/resplendent_contract_export'
@@ -52,13 +52,13 @@ function Resplendent() {
 
   return (
     <div className={styles.main}>
-      <Head>
+      {/* <head>
         <title>Resplendent Betting Site</title>
         <meta
           name="description"
           content="Come bet on the next Resplendent outfit with the blockchain!"
         />
-      </Head>
+      </head> */}
       {/* .hero */}
 
       <nav className="navbar mt-4 mb-4">
